@@ -65,6 +65,20 @@ async function toggleCompleted(id, completed) {
        loadTask(); 
     } catch (error) {
         alert("Erro ao atualizar tarefa: " + error.message);
-        
+
     }    
+} 
+
+async function deleteTask(id) {
+    try {
+        await fetch(`${APIurl}/${id}`, {
+            method: 'DELETE'
+        })
+        loadTask();
+    } catch (error) {
+        alert("Erro ao excluir tarefa: " + error.message);
+    
+    }
 }
+
+loadTask();
