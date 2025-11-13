@@ -20,7 +20,7 @@ body {
     align-items: center;
 }
 
-h1{
+h1 {
     font-size: 3em;
 }
 
@@ -66,13 +66,13 @@ input {
 
 }
 
-ul{
+ul {
     list-style: none;
     padding: 0;
     width: 530px;
 }
 
-li{
+li {
     background-color: white;
     margin: 5px 0;
     padding: 12px 14px;
@@ -88,5 +88,3 @@ li{
     opacity: 0.6;
 
 }
-
-
